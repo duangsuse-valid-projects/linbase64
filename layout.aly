@@ -1,0 +1,21 @@
+{
+  FrameLayout;
+  id="root";
+  {
+    EditText;
+    id="text";
+    gravity="top";
+    layout_height="match_parent";
+    layout_width="match_parent";
+    textSize="14";
+    hint="输入需要操作的文本_(:з」∠)_";
+  };
+  {
+    Button;
+    id="btn_op";
+    text="操作";
+    layout_marginRight="40";
+    layout_marginBottom="40";
+    layout_gravity="right|bottom";
+  };
+};
