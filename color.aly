@@ -1,0 +1,20 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  layout_width="fill";
+  orientation="horizontal";
+  {
+    EditText;
+    id="code";
+  };
+  {
+    Button;
+    text="看看怎么样";
+    id="p";
+  };
+  {
+    Button;
+    text="好的";
+    id="ok";
+  };
+};

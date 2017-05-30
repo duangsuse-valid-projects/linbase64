@@ -3,19 +3,22 @@
   id="root";
   {
     EditText;
-    id="text";
-    gravity="top";
-    layout_height="match_parent";
     layout_width="match_parent";
-    textSize="14";
     hint="输入需要操作的文本_(:з」∠)_";
+    id="text";
+    layout_height="match_parent";
+    textSize="14";
+    gravity="top";
   };
   {
-    Button;
+    ImageButton;
+    src="ic_leaf.png";
+    layout_width="180";
     id="btn_op";
-    text="操作";
-    layout_marginRight="40";
-    layout_marginBottom="40";
+    layout_height="180";
+    scaleType="center";
     layout_gravity="right|bottom";
+    layout_marginBottom="40";
+    layout_marginRight="40";
   };
 };

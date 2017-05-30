@@ -1,41 +1,48 @@
 {
   LinearLayout;
+  layout_height="fill";
   orientation="vertical";
   layout_width="fill";
-  layout_height="fill";
   {
     ToggleButton;
+    layout_width="match_parent";
     text="编码";
-    layout_width="match_parent";
+    id="Swi"
   };
   {
     Button;
-    id="np";
-    layout_width="match_parent";
     text="no_padding";
+    layout_width="match_parent";
+    id="np";
   };
   {
     Button;
-    id="nw";
-    layout_width="match_parent";
     text="no_wrap";
+    layout_width="match_parent";
+    id="nw";
   };
   {
     Button;
-    id="nc";
-    layout_width="match_parent";
     text="no_closing";
+    layout_width="match_parent";
+    id="nc";
   };
   {
     Button;
-    id="us";
-    layout_width="match_parent";
     text="url_safe";
+    layout_width="match_parent";
+    id="us";
   };
   {
     Button;
-    id="cr";
-    layout_width="match_parent";
     text="crlf";
+    layout_width="match_parent";
+    id="cr";
+  };
+  {
+    Button;
+    layout_width="match_parent";
+    text="默认";
+    id="df"
   };
 };
